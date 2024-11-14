@@ -57,11 +57,16 @@ def index():
     .download-data{
         margin: 10px;
     }
+    footer{
+        margin: 30px;
+        text-align: center;
+    }
     </style>
     </head>
     <body>
     
     <div class="qr-code">
+    <h2>GShare</h2>
     <h2>Scan this QR code: </h2>
     <img src="data:image/png;base64, {{ qr_gen_image }}">
     <h5>Or<br> Visit this url {{ local_ip_url }}</h5>
@@ -81,6 +86,9 @@ def index():
     {% endfor %}
     
     </div>
+    <footer>
+    Developed by <a href="https://github.com/g-wtham/QR-FileShare">Gowtham💙</a>
+    </footer>
     </body>
     </html>
     
