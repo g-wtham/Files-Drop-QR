@@ -18,9 +18,9 @@ A lightweight Flask-based application to enable local file sharing through QR co
   - Files uploaded via the web interface are stored in the `uploads` folder and made available for download.  
 
 - **Prerequisites**:
-- Python, Flask, `pyqrcode`, `pillow`.
-- Install dependencies using `pip install -requirements.txt`, from the terminal, thus it's better to clone the repository
-- Install git on your system, open git bash and enter `git clone https://github.com/g-wtham/QR-FileShare.git`
+  - Python, Flask, `pyqrcode`, `pillow`.
+  - Install dependencies using `pip install -requirements.txt`, from the terminal, thus it's better to clone the repository
+  - Install git on your system, open git bash and enter `git clone https://github.com/g-wtham/QR-FileShare.git`
 
 - **Access**:  
   - Visit the displayed URL or scan the QR code using any QR scanner app.  
